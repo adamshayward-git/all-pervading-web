@@ -5,9 +5,10 @@ export function injectHeader() {
   const current = window.location.pathname.split("/").pop() || "index.html";
 
   target.innerHTML = `
-    <header class="site-header" id="site-header">
+    <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="/index.html">All Pervading Web</a>
+
         <nav class="site-nav" aria-label="Primary">
           <a href="/index.html" class="${current === "index.html" ? "is-active" : ""}">Home</a>
           <a href="/projects.html" class="${current === "projects.html" ? "is-active" : ""}">Projects</a>
@@ -19,12 +20,4 @@ export function injectHeader() {
       </div>
     </header>
   `;
-
-  const header = document.getElementById("site-header");
-  const onScroll = () => {
-    if (window.scrollY > 8) header.classList.add("is-scrolled");
-    else header.classList.remove("is-scrolled");
-  };
-  onScroll();
-  window.addEventListener("scroll", onScroll, { passive: true });
 }

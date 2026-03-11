@@ -3,15 +3,24 @@ function createProjectCard(project) {
   article.className = "project-card reveal";
   article.href = project.link;
   article.dataset.category = project.category;
+
   article.innerHTML = `
+    <div class="project-image">
+      <img src="${project.image}" alt="${project.title}">
+    </div>
+
     <span class="card-tag">${project.category}</span>
+
     <h3>${project.title}</h3>
+
     <p>${project.description}</p>
+
     <div class="project-card__meta">
-      <span>${project.stack.join(" â€¢ ")}</span>
-      <span>View Case Study</span>
+      <span>${project.stack.join(" • ")}</span>
+      <span>View Case Study →</span>
     </div>
   `;
+
   return article;
 }
 

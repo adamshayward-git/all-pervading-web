@@ -4,6 +4,7 @@
     "description": "A mobile-first website that made menus, hours, and booking easy to find on any screen.",
     "category": "business",
     "stack": ["HTML", "CSS", "JavaScript"],
+    "image": "https://picsum.photos/seed/restaurant/600/400",    "//note": "/assets/images/restaurant.jpg",
     "link": "/projects/restaurant-website.html"
   },
   {
@@ -11,6 +12,7 @@
     "description": "A fast storefront concept with clean product browsing and a premium purchase flow.",
     "category": "ecommerce",
     "stack": ["Vite", "CSS Grid", "UI Patterns"],
+    "image": "https://picsum.photos/seed/ecommerce/600/400",      "//note": "/assets/images/ecommerce.jpg",
     "link": "/projects/ecommerce-store.html"
   },
   {
@@ -18,6 +20,7 @@
     "description": "An experimental concept exploring spatial UI patterns and future-facing interaction design.",
     "category": "experimental",
     "stack": ["Three.js", "Interaction Design"],
+    "image": "https://picsum.photos/seed/webgl/600/400",          "//note": "/assets/images/webgl.jpg",
     "link": "/projects/webgl-interface.html"
   }
 ]
