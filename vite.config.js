@@ -1,5 +1,16 @@
-import { defineConfig } from "vite";
+import { defineConfig } from "vite"
 
 export default defineConfig({
-  server: { open: true }
-});
+  build: {
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        projects: "projects.html",
+        services: "services.html",
+        experiments: "experiments.html",
+        articles: "articles.html",
+        contact: "contact.html"
+      }
+    }
+  }
+})
