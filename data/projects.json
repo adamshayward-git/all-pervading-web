@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Restaurant Website",
+    "description": "A mobile-first website that made menus, hours, and booking easy to find on any screen.",
+    "category": "business",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "link": "/projects/restaurant-website.html"
+  },
+  {
+    "title": "Ecommerce Store",
+    "description": "A fast storefront concept with clean product browsing and a premium purchase flow.",
+    "category": "ecommerce",
+    "stack": ["Vite", "CSS Grid", "UI Patterns"],
+    "link": "/projects/ecommerce-store.html"
+  },
+  {
+    "title": "WebGL Interface",
+    "description": "An experimental concept exploring spatial UI patterns and future-facing interaction design.",
+    "category": "experimental",
+    "stack": ["Three.js", "Interaction Design"],
+    "link": "/projects/webgl-interface.html"
+  }
+]

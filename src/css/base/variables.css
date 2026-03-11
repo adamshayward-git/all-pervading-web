@@ -1,0 +1,19 @@
+:root {
+  --bg: #0d0f15;
+  --bg-soft: #151927;
+  --panel: rgba(255,255,255,0.05);
+  --line: rgba(255,255,255,0.12);
+  --text: #eef2ff;
+  --text-soft: #bcc5df;
+  --accent: #7c5cff;
+  --accent-2: #00d7ff;
+  --shadow: 0 24px 60px rgba(0,0,0,0.35);
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 5rem;
+  --container: 1180px;
+  --fs-xl: clamp(2.5rem, 5vw, 5rem);
+}

@@ -1,0 +1,4 @@
+.contact-form { display: grid; gap: 1rem; padding: 1.4rem; border-radius: var(--radius-md); border: 1px solid var(--line); background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)); box-shadow: var(--shadow); }
+.contact-form label { display: grid; gap: .45rem; color: var(--text); font-weight: 600; }
+.contact-form input, .contact-form textarea { width: 100%; padding: .95rem 1rem; border-radius: 12px; border: 1px solid var(--line); background: rgba(255,255,255,.04); color: var(--text); }
+.contact-form textarea { min-height: 160px; resize: vertical; }

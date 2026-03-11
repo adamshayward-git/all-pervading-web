@@ -1,0 +1,12 @@
+.site-header { position: fixed; inset: 0 0 auto 0; z-index: 100; transition: background .25s ease, border-color .25s ease; border-bottom: 1px solid transparent; }
+.site-header.is-scrolled { background: rgba(8,10,15,0.72); backdrop-filter: blur(16px); border-color: var(--line); }
+.site-header__inner, .site-footer__inner { width: min(100% - 2rem, var(--container)); margin-inline: auto; }
+.site-header__inner { display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; padding: 1rem 0; }
+.brand { font-weight: 700; letter-spacing: -0.03em; }
+.site-nav { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.site-nav a { padding: .55rem .85rem; border-radius: 999px; color: var(--text-soft); transition: color .2s ease, background .2s ease; }
+.site-nav a:hover, .site-nav a.is-active { color: var(--text); background: rgba(255,255,255,.07); }
+.site-footer { padding: 2rem 0 3rem; border-top: 1px solid var(--line); margin-top: var(--space-6); }
+.site-footer__inner { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.site-footer p { color: var(--text-soft); }
+@media (max-width: 700px) { .site-header__inner { align-items: flex-start; flex-direction: column; } }
