@@ -41,25 +41,27 @@
       </p>
     </div>
 
-    <form class="contact-form reveal">
-      <label>
-        Name
-        <input type="text" placeholder="Your name">
-      </label>
+<form action="https://formspree.io/f/xojkdeqa" method="POST" class="contact-form reveal">
+  <input type="hidden" name="_subject" value="New website inquiry">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="/thank-you.html">
+  <label>
+    Name
+    <input type="text" name="name" placeholder="Your name" required>
+  </label>
 
-      <label>
-        Email
-        <input type="email" placeholder="your@email.com">
-      </label>
+  <label>
+    Email
+    <input type="email" name="email" placeholder="your@email.com" required>
+  </label>
 
-      <label>
-        Project details
-        <textarea placeholder="Tell me what you want to build."></textarea>
-      </label>
+  <label>
+    Project details
+    <textarea name="message" placeholder="Tell me what you want to build." rows="5" required></textarea>
+  </label>
 
-      <button type="button" class="btn btn--primary">Send Message</button>
-    </form>
-
+  <button type="submit" class="btn btn--primary">Send Message</button>
+</form>
   </div>
 </section>
 

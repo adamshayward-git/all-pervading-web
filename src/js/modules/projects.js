@@ -9,7 +9,7 @@ function createProjectCard(project) {
       <img src="${project.image}" alt="${project.title}">
     </div>
 
-    <span class="card-tag">${project.category}</span>
+    <span class="project-category">${project.category}</span>
 
     <h3>${project.title}</h3>
 

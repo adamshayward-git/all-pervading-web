@@ -3,6 +3,7 @@ import { injectFooter } from "./components/footer.js";
 import { initReveal } from "./modules/reveal.js";
 import { initRotatingText } from "./modules/rotatingText.js";
 import { initProjects } from "./modules/projects.js";
+import { initArticles } from "./modules/articles.js";
 import { initFilters } from "./modules/filters.js";
 import { initEffects } from "./modules/effects.js";
 
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initReveal();
   initRotatingText();
   await initProjects();
+  await initArticles();
   initFilters();
   initEffects();
 });
