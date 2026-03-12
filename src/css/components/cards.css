@@ -1,116 +1,116 @@
 .project-image {
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-    border-radius: 12px;
-    margin-bottom: 1rem;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  position: relative;
 }
 
 .project-image::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to bottom,
-            transparent,
-            rgba(0, 0, 0, .35));
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 0.35)
+  );
 }
 
 .project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .4s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
 }
 
 .project-card:hover img {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .project-grid,
 .service-grid,
 .article-grid {
-    display: grid;
-    gap: var(--space-3);
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .project-card,
 .service-card,
 .article-card,
 .info-card {
-    display: block;
-    padding: 1.4rem;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--line);
-    background: linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(255, 255, 255, .035));
-    box-shadow: var(--shadow);
-    position: relative;
-    overflow: hidden;
-    transition: transform .22s ease, border-color .22s ease, background .22s ease, box-shadow .22s ease;
+  display: block;
+  padding: 1.4rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--card-bg-1), var(--card-bg-2));
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
 }
 
 .project-card:hover,
 .service-card:hover,
 .article-card:hover,
 .info-card:hover {
-    transform: translateY(-6px);
-    border-color: rgba(124, 92, 255, .45);
-    background: linear-gradient(180deg, rgba(255, 255, 255, .08), rgba(255, 255, 255, .04));
+  transform: translateY(-6px);
+  border-color: var(--card-hover-line);
+  background: linear-gradient(180deg, var(--card-hover-bg-1), var(--card-hover-bg-2));
 }
 
 .project-card p,
 .service-card p,
 .article-card p {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .project-card__meta,
 .article-card__meta {
-    display: flex;
-    justify-content: space-between;
-    gap: .75rem;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    font-size: .9rem;
-    color: var(--text-soft);
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-soft);
 }
 
 .card-tag {
-    display: inline-block;
-    padding: .35rem .65rem;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, .06);
-    border: 1px solid rgba(255, 255, 255, .08);
-    font-size: .78rem;
-    color: var(--text-soft);
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-line);
+  font-size: 0.78rem;
+  color: var(--text-soft);
 }
 
-.project-category{
-  font-size:.75rem;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-  color:var(--accent);
-  margin-bottom:.35rem;
-  opacity:.85;
-  font-weight:600;
+.project-category {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.35rem;
+  opacity: 0.85;
+  font-weight: 600;
 }
 
-.article-category{
-  font-size:.75rem;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:var(--accent);
-  margin-bottom:.35rem;
-  opacity:.8;
+.article-category {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.35rem;
+  opacity: 0.8;
 }
 
 @media (max-width: 980px) {
-
-    .project-grid,
-    .service-grid,
-    .article-grid {
-        grid-template-columns: 1fr;
-    }
+  .project-grid,
+  .service-grid,
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
 }

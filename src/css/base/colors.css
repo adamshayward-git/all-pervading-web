@@ -1,0 +1,208 @@
+/* =========================
+   DEFAULT / CURRENT THEME
+   ========================= */
+
+:root {
+  --bg: #0d0f15;
+  --bg-soft: #151927;
+  --panel: rgba(255, 255, 255, 0.05);
+  --line: rgba(255, 255, 255, 0.12);
+
+  --text: #eef2ff;
+  --text-soft: #bcc5df;
+
+  --accent: #7c5cff;
+  --accent-2: #00d7ff;
+
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  --form-bg-1: rgba(255, 255, 255, 0.06);
+  --form-bg-2: rgba(255, 255, 255, 0.03);
+  --input-bg: rgba(255, 255, 255, 0.04);
+  --input-focus-line: rgba(124, 92, 255, 0.45);
+  --input-focus-ring: rgba(124, 92, 255, 0.18);
+
+  --header-bg: rgba(8, 10, 15, 0.72);
+  --nav-hover-bg: rgba(255, 255, 255, 0.06);
+  --nav-active-bg: rgba(124, 92, 255, 0.18);
+  --nav-active-line: rgba(124, 92, 255, 0.35);
+
+  --surface-bg-1: rgba(255, 255, 255, 0.07);
+  --surface-bg-2: rgba(255, 255, 255, 0.03);
+
+  --metric-bg: rgba(255, 255, 255, 0.04);
+  --metric-line: rgba(255, 255, 255, 0.08);
+
+  --mockup-glow-1: rgba(124, 92, 255, 0.18);
+  --mockup-glow-2: rgba(0, 215, 255, 0.14);
+  --mockup-bg-1: rgba(255, 255, 255, 0.06);
+  --mockup-bg-2: rgba(255, 255, 255, 0.03);
+}
+
+
+/* =========================
+   MODERN TECH
+   ========================= */
+
+:root[data-theme="modern-tech"] {
+  --bg: #0b1320;
+  --bg-soft: #111827;
+  --panel: rgba(255, 255, 255, 0.05);
+  --line: rgba(79, 156, 249, 0.18);
+
+  --text: #e6eaf0;
+  --text-soft: #9ca3af;
+
+  --accent: #22e3e8;
+  --accent-2: #4f9cf9;
+
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  --form-bg-1: rgba(255, 255, 255, 0.06);
+  --form-bg-2: rgba(255, 255, 255, 0.03);
+  --input-bg: rgba(255, 255, 255, 0.04);
+  --input-focus-line: rgba(79, 156, 249, 0.45);
+  --input-focus-ring: rgba(79, 156, 249, 0.18);
+
+  --header-bg: rgba(8, 12, 20, 0.72);
+  --nav-hover-bg: rgba(255, 255, 255, 0.06);
+  --nav-active-bg: rgba(34, 227, 232, 0.16);
+  --nav-active-line: rgba(34, 227, 232, 0.35);
+
+  --surface-bg-1: rgba(255, 255, 255, 0.07);
+  --surface-bg-2: rgba(255, 255, 255, 0.03);
+
+  --metric-bg: rgba(255, 255, 255, 0.04);
+  --metric-line: rgba(255, 255, 255, 0.08);
+
+  --mockup-glow-1: rgba(34, 227, 232, 0.18);
+  --mockup-glow-2: rgba(79, 156, 249, 0.14);
+  --mockup-bg-1: rgba(255, 255, 255, 0.06);
+  --mockup-bg-2: rgba(255, 255, 255, 0.03);
+}
+
+
+/* =========================
+   COPPER TECH
+   ========================= */
+
+:root[data-theme="copper-tech"] {
+  --bg: #0e1116;
+  --bg-soft: #1e1a16;
+  --panel: rgba(230, 169, 107, 0.06);
+  --line: rgba(230, 169, 107, 0.18);
+
+  --text: #f5f3ef;
+  --text-soft: #a8a29e;
+
+  --accent: #c97a40;
+  --accent-2: #e6a96b;
+
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  --form-bg-1: rgba(230, 169, 107, 0.08);
+  --form-bg-2: rgba(230, 169, 107, 0.04);
+  --input-bg: rgba(230, 169, 107, 0.05);
+  --input-focus-line: rgba(230, 169, 107, 0.45);
+  --input-focus-ring: rgba(230, 169, 107, 0.18);
+
+  --header-bg: rgba(14, 17, 22, 0.75);
+  --nav-hover-bg: rgba(230, 169, 107, 0.08);
+  --nav-active-bg: rgba(230, 169, 107, 0.16);
+  --nav-active-line: rgba(230, 169, 107, 0.35);
+
+  --surface-bg-1: rgba(230, 169, 107, 0.09);
+  --surface-bg-2: rgba(230, 169, 107, 0.04);
+
+  --metric-bg: rgba(230, 169, 107, 0.06);
+  --metric-line: rgba(230, 169, 107, 0.14);
+
+  --mockup-glow-1: rgba(201, 122, 64, 0.2);
+  --mockup-glow-2: rgba(230, 169, 107, 0.14);
+  --mockup-bg-1: rgba(230, 169, 107, 0.08);
+  --mockup-bg-2: rgba(230, 169, 107, 0.04);
+}
+
+
+/* =========================
+   CYBER INDIGO
+   ========================= */
+
+:root[data-theme="cyber-indigo"] {
+  --bg: #0b0b1a;
+  --bg-soft: #16162b;
+  --panel: rgba(255, 255, 255, 0.05);
+  --line: rgba(124, 108, 242, 0.2);
+
+  --text: #eaeaf4;
+  --text-soft: #9aa0b3;
+
+  --accent: #7c6cf2;
+  --accent-2: #2ee6d6;
+
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  --form-bg-1: rgba(255, 255, 255, 0.06);
+  --form-bg-2: rgba(255, 255, 255, 0.03);
+  --input-bg: rgba(255, 255, 255, 0.04);
+  --input-focus-line: rgba(124, 108, 242, 0.45);
+  --input-focus-ring: rgba(124, 108, 242, 0.18);
+
+  --header-bg: rgba(11, 11, 26, 0.75);
+  --nav-hover-bg: rgba(255, 255, 255, 0.06);
+  --nav-active-bg: rgba(124, 108, 242, 0.16);
+  --nav-active-line: rgba(124, 108, 242, 0.35);
+
+  --surface-bg-1: rgba(255, 255, 255, 0.07);
+  --surface-bg-2: rgba(255, 255, 255, 0.03);
+
+  --metric-bg: rgba(255, 255, 255, 0.04);
+  --metric-line: rgba(255, 255, 255, 0.08);
+
+  --mockup-glow-1: rgba(124, 108, 242, 0.18);
+  --mockup-glow-2: rgba(46, 230, 214, 0.14);
+  --mockup-bg-1: rgba(255, 255, 255, 0.06);
+  --mockup-bg-2: rgba(255, 255, 255, 0.03);
+}
+
+
+/* =========================
+   WARM PURPLE
+   ========================= */
+
+:root[data-theme="warm-purple"] {
+  --bg: #0f1020;
+  --bg-soft: #1a1b2e;
+  --panel: rgba(255, 255, 255, 0.05);
+  --line: rgba(192, 132, 252, 0.18);
+
+  --text: #f3f4f6;
+  --text-soft: #a1a1aa;
+
+  --accent: #8b5cf6;
+  --accent-2: #c084fc;
+
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  --form-bg-1: rgba(255, 255, 255, 0.06);
+  --form-bg-2: rgba(255, 255, 255, 0.03);
+  --input-bg: rgba(255, 255, 255, 0.04);
+  --input-focus-line: rgba(192, 132, 252, 0.45);
+  --input-focus-ring: rgba(192, 132, 252, 0.18);
+
+  --header-bg: rgba(15, 16, 32, 0.75);
+  --nav-hover-bg: rgba(255, 255, 255, 0.06);
+  --nav-active-bg: rgba(192, 132, 252, 0.16);
+  --nav-active-line: rgba(192, 132, 252, 0.35);
+
+  --surface-bg-1: rgba(255, 255, 255, 0.07);
+  --surface-bg-2: rgba(255, 255, 255, 0.03);
+
+  --metric-bg: rgba(255, 255, 255, 0.04);
+  --metric-line: rgba(255, 255, 255, 0.08);
+
+  --mockup-glow-1: rgba(139, 92, 246, 0.18);
+  --mockup-glow-2: rgba(192, 132, 252, 0.14);
+  --mockup-bg-1: rgba(255, 255, 255, 0.06);
+  --mockup-bg-2: rgba(255, 255, 255, 0.03);
+}
