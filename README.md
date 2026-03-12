@@ -1,18 +1,24 @@
 # All Pervading Web
 
-## Quick start
+Portfolio and experimental web development projects.
 
-```bash
-npm install
-npm run dev
-```
+## Stack
+
+- HTML
+- CSS architecture (modular)
+- JavaScript modules
+- Vite build system
 
 ## Pages
+
 - Home
 - Projects
 - Services
 - Experiments
 - Articles
 - Contact
-- Project case studies
-- Article pages
+
+## Run locally
+
+npm install
+npm run dev
